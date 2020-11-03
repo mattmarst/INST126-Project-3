@@ -15,7 +15,7 @@ Hence, total cases will be a sum of all the suspicious days for all the users.
 The total number of cases for each individual user will be the number of all the suspicious days for that user.
 All the time, activity, and server information for the particular days for each user must be listed in the ascending order, sorted on the basis of time.
 
-## Irresponsible behavior (irresponsible_report.txt)
+### Irresponsible behavior (irresponsible_report.txt)
 
 The user is expected to logout every time he/she logs in to any of the systems. So if the user forgets to logout after logging in, it is considered an irresponsible behavior. To keep it simple, you can check if the number of logins is more than the number of logouts for a particular user on a given day, it can be tagged as an irresponsible activity.
 
@@ -25,7 +25,7 @@ Hence, total cases will be a sum of all the days when any user was irresponsible
 The total number of cases for each individual user will be the number of days when that particular user was irresponsible.
 All the time, activity, and server information for the particular days for each user must be listed in the ascending order, sorted on the basis of time.
 
-## System glitch (glitch_report.txt)
+### System glitch (glitch_report.txt)
 
 On the contrary to the previous behavior, if the system records more number of logouts than the number of logins for any user, we flag it as a system glitch as this is not practically possible.
 
@@ -35,7 +35,7 @@ Hence, total cases will be a sum of all the days when there was a glitch for any
 The total number of cases for each individual user will be the number of days when that particular user faced a glitch.
 All the time, activity, and server information for the particular days for each user must be listed in the ascending order, sorted on the basis of time.
 
-##  Domain count (domain_report.txt)
+###  Domain count (domain_report.txt)
 
 A list of all the unique domains and the number of users registered within each domain.
 NOTE: The domain name of a particular user can be found by checking the second part of their email-id.
@@ -48,3 +48,6 @@ Email-ID:       sample.user@domain.abc
 Name:           sample.user
 
 Domain name:    domain.abc
+
+## Proposed Solutions
+All proposed solutions can be viewed in their respective flowcharts. There will be a main program that calls report functions that will then generate their reports and eventually write them to their own text file. These are drafts and will more than likely be altered when programming.
