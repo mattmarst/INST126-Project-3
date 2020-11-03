@@ -44,5 +44,7 @@ NOTE: "Unique domains" mean that each domain name should occur only once in this
 Example:
 
 Email-ID:       sample.user@domain.abc
+
 Name:           sample.user
+
 Domain name:    domain.abc
